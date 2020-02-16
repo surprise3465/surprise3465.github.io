@@ -1,20 +1,246 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script type="text/javascript" src ="event.js"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Sun Jian - 个人简历</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
 </head>
-<body>
-    <h1>Hello World!</h1>
-    <button id = "button1" onclick = "onCloseCurrentWinClick()">CloseCurrent</button>
-    <br/><br/>
-    <button id = "button2" onclick = "onCloseAllWinClick()">CloseAll</button>
-    <br/><br/>
-    <button id = "button3" onclick = "onCreateMultiWin()">Create</button>
-    <br/><br/>
-    <img src = "motorcycle_left.png"/>
-    <h2>书名:<i>《第一章代码》</i></h2>
-    出版社<u>上海出版社</u>
-    <br/><br/>
-    原价: <del>69</del>元 促销价 59元
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">孙 建</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">关于自己</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">工作经历</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">教育经历</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">个人技能</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">兴趣爱好</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">曾获奖励</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <div class="subheading mb-5">
+          <h2 class="mb-0">孙 建</h2>
+        </div>
+        <div class="subheading mb-5">工作地点：辽宁大连</div>
+        <div class="subheading mb-5">电话：15242589001
+        </div>
+        <div class="subheading mb-5">邮箱：
+          <a href="mailto:name@email.com">785302400@qq.com</a>
+        </div>
+        <div class="subheading mb-5">职位：客户端工程师，算法工程师</div>
+        <div class="lead mb-5">关键词：C++/C#/Python 列车网络通讯工具 音视频应用 生物医学数据处理 大连理工大学电信学部</div>
+        <div>
+        <p>微信联系</p>
+          <img class="img-code" src="img/code.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">工作经历</h2>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">大连东软汽车电子第一事业部</h3>
+            <div class="subheading mb-3">Linux模块开发</div>
+            <p>车载音响的中间件模块开发，负责HMI/上位机和底层之间的消息传递，主要工作内容为Socket时序通信/字节序解析</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2015.9 - 2016.3</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">大连海天兴业科技有限公司</h3>
+            <div class="subheading mb-3">Windows应用开发</div>
+            <p>负责开发地铁及轻轨等领域的音视频回放、设备信息维护、协议仿真及数据可视化等功能的Windows工具。开发语言包括C++(Qt/MFC)和C#(WinForm)，音视频框架包括DirectShow、GStreamer等</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2016.4 - 2019.7</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">云像分子</h3>
+            <div class="subheading mb-3">客户端工程师/算法工程师</div>
+            <p>负责客户端开发和数据算法</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2019.7 - Present</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">教育经历</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-1">大连理工大学</h3>
+            <div class="subheading mb-3">本科</div>
+            <div class="subheading mb-3">电信学部-电子信息与工程系</div>
+            <p>主修课程：通信原理，信号与系统，数电模电，医学影像学，计算机组成原理，C语言程序设计，数据结构等</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2007.9 - 2011.6</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-1">大连理工大学</h3>
+            <div class="subheading mb-3">硕士</div>
+            <div class="subheading mb-3">电信学部-生物医学工程系</div>
+            <p>主修课程：数字信号处理，矩阵与数值分析，机器学习，统计分析方法，医学影像学，人工神经网络等</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2012.9 - 2015.6</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">个人技能</h2>
+
+        <div class="subheading mb-3">编程语言</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <p>C++</p>
+          </li>
+          <li class="list-inline-item">
+            C#
+          </li>
+          <li class="list-inline-item">
+            Python
+          </li>  
+        </ul>
+
+        <div class="subheading mb-3">应用场景</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            基于C++/MFC的客户端开发</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            基于C++/Qt的Windows与Linux跨平台开发</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            基于C#(WinForm/WPF)的Windows应用程序开发</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            基于Python的数字信号处理/机器学习</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">其他爱好</h2>
+        <div class="subheading mb-3">工作之余对以下技术有一定了解和练习：</div>
+        <div class="subheading mb-1">基于Opencv的图像处理技术</div>
+        <div class="subheading mb-1">ML.Net机器学习技术</div>
+        <div class="subheading mb-1">Asp.Net Core服务端技术</div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">证书与奖励</h2>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            2013.12 英语六级533</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            2013.12 托业815</li>
+            <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            2013.6 全国计算机等级考试4级数据库</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            2018.1 海天兴业公司初级导师</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+           2012.9 大连理工大学研究生一等奖学金</li>
+         
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
 </body>
+
 </html>
